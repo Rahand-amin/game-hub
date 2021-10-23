@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: rgb(0, 4, 27); 
+}
+nav{
+    background: rgb(36, 36, 36);
+    height: 10px;
+    width: 100%;
+  }
+  nav ul{
+    float: left;
+    margin-left: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+      color: honeydew;
+   padding: 7px 13px;
+    border-radius: 3px;
+    
+    text-decoration: none;
+  }
+  #game{
+    justify-content: center;
+   font-size: 55px;
+   font-family:monospace;
+   color: goldenrod !important ;
+   text-shadow: 1px 1px 2px snow;
+}
+sub{
+ color: goldenrod !important ;
+ font-size: 22px;
+ font-family:monospace;
+ text-shadow: 1px 1px 2px snow;
+}
+#game:hover{
+ color: snow !important;
+ text-shadow: 1px 1px 10px gold;
+ font-size: 50px;
+}
+hr{
+   width: 100%;
+   margin-top: 0px;
+   background-color: rgb(107, 107, 107) !important;
+   color: gray;
+}
+
+#menu{
+ font-size: 50px;
+ margin-top: 33px;
+}
+#menu:hover{
+ color: goldenrod !important;
+ text-shadow: 1px 1px 10px snow;
+ font-size: 92px;
+ transition: 0.1s;
+}
+#gamehub{
+    margin-left: 260px;
+  }
+  #pro,#flag{
+    font-size: 25px;
+    font-weight: bolder;
+    color: goldenrod;
+    text-shadow: 1.5px 1.5px 3px snow;
+  
+  }
+  #pro{
+       margin-left: 230px; 
+  }
+  #pro:hover{
+    color: white;
+    text-shadow:1px 1px 9px gold;
+    font-size: 28px;
+    
+  }
+  #flag:hover{
+    color: white;
+    text-shadow:1px 1px 9px gold;
+    font-size: 28px;
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #c7c6c6;
+    margin-left: 1028px;
+  }
+  
+  
+  form.example button {
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: goldenrod;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: goldenrod;
+  }
+  
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #Gname{
+      color: goldenrod;
+      font-size: 65px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      margin-left: 20px;
+  }
+  #all{
+      display: flex;
+      flex-direction: row;
+  }
+  #pic{
+      flex: 1;
+      margin: 45px;
+  }
+  #pic img{
+    width: 500px;
+  }
+  #write{
+      flex: 2;
+      margin: 45px;
+  }
+  #price{
+    color: white;
+    width: 270px;
+    font-size: 80px;
+border-bottom: 4px solid goldenrod;
+border-radius: 20px;
+  }
+  #write a{
+    text-decoration: none;
+    color: white;
+    background-color: goldenrod;
+    font-size: 60px;
+    padding: 25px;
+    border-radius: 55px;
+  }
+  #btt:hover{
+box-shadow: 1px 1px 20px 1px white;
+  }
+  #p{
+    color: white;
+    font-size: 35px;
+  }
+  #allpic{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+    margin-bottom: 50px;
+  }
+  #allpic img{
+    width: 140px;
+    height: 170px;
+    object-fit: cover;
+  }

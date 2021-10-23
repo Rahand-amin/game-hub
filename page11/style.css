@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: rgb(0, 4, 27); 
+}
+nav{
+    background: rgb(36, 36, 36);
+    height: 10px;
+    width: 100%;
+  }
+  nav ul{
+    float: left;
+    margin-left: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+      color: honeydew;
+   padding: 7px 13px;
+    border-radius: 3px;
+    
+    text-decoration: none;
+  }
+  #game{
+    justify-content: center;
+   font-size: 55px;
+   font-family:monospace;
+   color: goldenrod !important ;
+   text-shadow: 1px 1px 2px snow;
+}
+sub{
+ color: goldenrod !important ;
+ font-size: 22px;
+ font-family:monospace;
+ text-shadow: 1px 1px 2px snow;
+}
+#game:hover{
+ color: snow !important;
+ text-shadow: 1px 1px 10px gold;
+ font-size: 50px;
+}
+hr{
+   width: 100%;
+   margin-top: 0px;
+   background-color: rgb(107, 107, 107) !important;
+   color: gray;
+}
+
+#menu{
+ font-size: 50px;
+ margin-top: 33px;
+}
+#menu:hover{
+ color: goldenrod !important;
+ text-shadow: 1px 1px 10px snow;
+ font-size: 92px;
+ transition: 0.1s;
+}
+#gamehub{
+    margin-left: 260px;
+  }
+  #pro,#flag{
+    font-size: 25px;
+    font-weight: bolder;
+    color: goldenrod;
+    text-shadow: 1.5px 1.5px 3px snow;
+  
+  }
+  #pro{
+       margin-left: 230px; 
+  }
+  #pro:hover{
+    color: white;
+    text-shadow:1px 1px 9px gold;
+    font-size: 28px;
+    
+  }
+  #flag:hover{
+    color: white;
+    text-shadow:1px 1px 9px gold;
+    font-size: 28px;
+  }
+  #all{
+      width: 70%;
+      border: 4px solid grey;
+  }
+  h1{
+      color: white;
+      font-size: 50px;
+      margin-top: 40px;
+  }
+  h2{
+color: white;
+background-color: green;
+width: 100px;
+height: 100px;
+padding-top: 0px;
+font-size:70px;
+  }
+  p{
+      color: goldenrod;
+      margin-top: 30px;
+      font-size: 30px;
+      margin-bottom: 30px;
+  }
+  h3{
+      color: goldenrod;
+      opacity: 0.5;
+      font-size: 40px;
+      
+  }
+  h4{
+color: goldenrod;
+opacity: 0.5;
+font-size: 25px;
+  }

@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+body{
+   background-color: rgb(0, 4, 27); 
+}
+nav{
+    background: rgb(36, 36, 36);
+    height: 10px;
+    width: 100%;
+  }
+  nav ul{
+    float: left;
+    margin-left: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+      color: honeydew;
+   padding: 7px 13px;
+    border-radius: 3px;
+    
+    text-decoration: none;
+  }
+  #game{
+    justify-content: center;
+   font-size: 55px;
+   font-family:monospace;
+   color: goldenrod !important ;
+   text-shadow: 1px 1px 2px snow;
+}
+sub{
+ color: goldenrod !important ;
+ font-size: 22px;
+ font-family:monospace;
+ text-shadow: 1px 1px 2px snow;
+}
+#game:hover{
+ color: snow !important;
+ text-shadow: 1px 1px 10px gold;
+ font-size: 50px;
+}
+hr{
+   width: 100%;
+   margin-top: 0px;
+   background-color: rgb(107, 107, 107) !important;
+   color: gray;
+}
+
+#menu{
+ font-size: 50px;
+ margin-top: 33px;
+}
+#menu:hover{
+ color: goldenrod !important;
+ text-shadow: 1px 1px 10px snow;
+ font-size: 92px;
+ transition: 0.1s;
+}
+#gamehub{
+    margin-left: 260px;
+  }
+  #pro,#flag{
+    font-size: 25px;
+    font-weight: bolder;
+    color: goldenrod;
+    text-shadow: 1.5px 1.5px 3px snow;
+  
+  }
+  #pro{
+       margin-left: 230px; 
+  }
+  #pro:hover{
+    color: white;
+    text-shadow:1px 1px 9px gold;
+    font-size: 28px;
+    
+  }
+  #flag:hover{
+    color: white;
+    text-shadow:1px 1px 9px gold;
+    font-size: 28px;
+  }
+  form{
+    width: 50%;
+    box-shadow: inset 3px 3px 14px snow;
+    margin: 2em auto;
+    padding: 2.5em;
+    border:3px solid goldenrod;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    margin: 1em;
+    font-size: 1.3em;
+}
+
+input{
+    border:2px solid goldenrod;
+    border-radius: 1em;
+    background-color: transparent;
+    font-size: 1.5em;
+    color: goldenrod;
+    padding: .2em;
+    width:auto;
+    box-shadow:inset 2px 2px 16px snow;
+    font-family: monospace;
+}
+.hr{
+    margin: 1em auto;
+    height:2px ;
+    background-color: goldenrod;
+
+}
+#genders{
+    width: 60%;
+    margin: 1em auto;
+    border: 3px solid goldenrod;
+    border-radius: 2em;
+    box-shadow: inset 3px 3px 14px snow;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+select{
+    font-size: 1.1em;
+    padding: .5em;
+    background-color: black;
+    border: 3px solid goldenrod;
+    box-shadow: inset 2px 2px 13px snow;
+    border-radius: 15px;
+    color: snow;
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    margin: 1em auto;
+    padding: .7em .8em;
+    background-color: goldenrod;
+    font-size: 2em  ;
+    font-weight: bolder;
+    font-family:serif;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    box-shadow: inset 2px 2px 15px goldenrod;
+    transition: all .2s ease-in-out;
+}
+label{
+    color: snow;
+}
+.p{
+    color: snow;
+}
+.aa{
+    color: rgb(0, 0, 0) !important;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  
+
